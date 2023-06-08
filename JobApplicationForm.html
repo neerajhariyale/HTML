@@ -1,0 +1,90 @@
+<html>
+
+<head>
+</head>
+
+<body bgcolor="#9FE2BF">
+    <h2 align="center">Job Application Form</h2>
+    <hr>
+    <form action="">
+        <table align="center" cellspacing="20">
+            <!-- FULL NAME -->
+            <tr>
+                <td><b> Name</b></td>
+                <td><input type="text" size="50" placeholder="Enter Your Name"></td>
+            </tr>
+            <!-- JOB TITLE -->
+            <tr>
+                <td><b>Job Title</b></td>
+                <td><input type="text" size="50" placeholder="Enter Your Job Title"></td>
+            </tr>
+            <!-- CURRENT COMPANY -->
+            <tr>
+                <td><b>Current Company</b></td>
+                <td><input type="text" size="50" placeholder="Enter Your Company Name"></td>
+            </tr>
+            <!-- CONTACT NUMBER -->
+            <tr>
+                <td><b>Contact Number</b> </td>
+                <td><select>
+                        <option value="+91">+91</option>
+                    </select><input type="text" size="43" placeholder="Enter Your Contact Number"></td>
+            </tr>
+            <!-- EMAIL -->
+            <tr>
+                <td><b> Email</b> </td>
+                <td><input type="email" size="50" placeholder="Enter Your Email"></td>
+            </tr>
+            <!-- WORKSTATUS -->
+            <tr>
+                <td><b> Work Status</b> </td>
+                <td>
+                    <input type="radio" name="WorkStatus" value="Full Time">Full Time
+                    <input type="radio" name="WorkStatus" value="Part Time">Part Time
+                    <input type="radio" name="WorkStatus" value="Per Dim"> Per Day
+                    <input type="radio" name="WorkStatus" value="Others"> Others
+                </td>
+            </tr>
+            <!-- SALARY -->
+            <tr>
+                <td><b>Salary</b></td>
+                <td>
+                    <input type="text" size="29" placeholder="Enter Your Salary">
+                    <select name="Rupees" id="">
+                        <option value="Rupees">Rupees</option>
+                    </select>
+                    <select name="Yearly" id="">
+                        <option value="Yearly">Yearly</option>
+                    </select>
+                </td>
+            </tr>
+            <!-- EXPERIENCE -->
+            <tr>
+                <td><b> Experience</b></td>
+                <td><input type="text " size="50" placeholder="Enter Your Experience in month"></td>
+            </tr>
+            <!-- CURRENT LOCATION -->
+            <tr>
+                <td><b> Current Location</b></td>
+                <td><input type="text" size="50" placeholder="Enter Your Current location"></td>
+            </tr>
+            <!-- PERMANENT ADDRESS -->
+            <tr>
+                <td><b> Permanent Address</b></td>
+                <td> <textarea cols="48" rows="5" placeholder="Enter Your Permanent address"></textarea></td>
+            </tr>
+            <!-- UPLOAD RESUME -->
+            <tr>
+                <td><b> Upload Resume</b></td>
+                <td><input type="file"></td>
+            </tr>
+            <!-- SUBMIT $ RESET -->
+            <tr>
+                <th><Button>Submit</Button></th>
+                <th><button>Reset</button></th>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
